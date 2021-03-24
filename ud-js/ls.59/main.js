@@ -21,3 +21,10 @@ for(let todo of todos) {
     console.log(todo.title);
   }
 }
+
+for(let i in todos) {
+  let todo = todos[i];
+  if(todos[i].complited === true) {
+    console.log(todos[i].title)
+  };
+}
